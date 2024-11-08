@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add To Cart Project</title>
+    <link rel="stylesheet" href="pro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body class="">
+    <div class="container">
+        <header>
+            <div class="title">Product List</div>
+            <div class="icon"><i class="fa fa-shopping-cart" style="font-size:36px"></i>
+                <span>0</span>
+            </div>
+            
+        </header>
+        <div class="listProduct">
+            <div class="item">
+                <img src="./image/1.jpg" alt="">
+                <h2>Television</h2>
+                <div class="price">$200</div>
+                <button class="addCart">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart">
+            <div class="item">
+                <div class="image">
+                    <img src="./image/1.jpg" alt="">
+                </div>
+                <div class="name">Name</div>
+                <div class="totalPrice">$200</div>
+                <div class="quantity">
+                    <span class="minus"><</span>
+                                  <span>1</span>
+                    <span class="plus">></span>
+
+                </div>
+                <div class="totalPrice">Total</div>
+            </div>
+
+
+        </div>
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOut">Check Out</button>
+        </div>
+       <form action="" class="form">
+        <div class="payment"><h3>Payment</h3>
+            <div class="inputbox">
+                <span>Cards Accepted:</span>
+                <img src="./image/master.png" alt="">
+                <img src="./image/p.png" alt="">
+            </div>
+            <div class="inputbox">
+                <span>Tele Birr:</span>
+                <input type="number" placeholder="0985441389">
+        
+            </div>
+            <div class="inputbox">
+                <a href="#"><span>Hijra Bank:</span></a>
+            
+            </div>
+            <div class="inputbox">
+                <a href="#"><span>CBE:</span></a>
+            
+            </div>
+                    </div>
+                    <input type="submit" value="submit" class="submitButton" onclick="openPopup()">
+       </form>
+    </div>
+    <div class="cont">
+        <!-- <button type="submit" class="btnc">submit</button> -->
+         <div class="popup" id="popup">
+            <img src="./image/done.jfif " alt="">
+            <h2>Thank You!</h2>
+            <p>Your Details has been Successfully submitted.</p>
+            <button type="button" onclick="closePopup()">ok </button>
+         </div>
+    </div>
+
+
+
+    <script src="./pro.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+[
+    {
+        "id":1,
+        "name":"Television",
+        "price":200,
+        "image":"image/1.jpg"
+    },
+    {
+        "id":2,
+        "name":"Air Pod",
+        "price":150,
+        "image":"image/2.jpg"
+    },
+    {
+        "id":3,
+        "name":"Laptop",
+        "price":400,
+        "image":"image/3.jpg"
+    },
+    {
+        "id":4,
+        "name":"Iphone pro",
+        "price":500,
+        "image":"image/4.jpg"
+    },
+    {
+        "id":5,
+        "name":"Hp",
+        "price":300,
+        "image":"image/5.jpg"
+    },
+    {
+        "id":6,
+        "name":"ftjjh hhggj",
+        "price":300,
+        "image":"image/6.jpg"
+    },
+    {
+        "id":7,
+        "name":"WireLess Mouse",
+        "price":300,
+        "image":"image/7.jpg"
+    },
+    {
+        "id":8,
+        "name":"gjh bnvh",
+        "price":450,
+        "image":"image/8.jpg"
+    },
+    {
+        "id":9,
+        "name":"rtyu kjkl",
+        "price":350,
+        "image":"image/9.jpg"
+    },
+    {
+        "id":10,
+        "name":"Microphone",
+        "price":150,
+        "image":"image/16.jpg"
+    },
+    {
+        "id":11,
+        "name":"Violin",
+        "price":300,
+        "image":"image/19.jpg"
+    },
+    {
+        "id":12,
+        "name":"Playstation",
+        "price":500,
+        "image":"image/18.jpg"
+    },
+    {
+        "id":13,
+        "name":"Iphone pro",
+        "price":300,
+        "image":"image/11.jpg"
+    },
+    {
+        "id":14,
+        "name":"ewty ",
+        "price":400,
+        "image":"image/13.jpg"
+    },
+    {
+        "id":15,
+        "name":"jjjj",
+        "price":150,
+        "image":"image/20.jpg"
+    },
+    {
+        "id":16,
+        "name":"hjkhiu",
+        "price":200,
+        "image":"image/21.jpg"
+    }
+]
